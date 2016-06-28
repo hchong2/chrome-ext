@@ -1,0 +1,15 @@
+{
+	// Required
+	"manifest_version": 2,
+	"name": "scratchpad",
+	"version": "1.0.0",
+	"permissions": [
+      "contextMenus", "tabs", "http://localhost:8081/*"
+    ],
+    "background": {
+    	"scripts": [
+            "jquery-min.js",
+    		"pad.js"
+    	]
+    }
+}
