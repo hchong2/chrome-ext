@@ -1,4 +1,14 @@
 chrome.contextMenus.create({
+	"title": "Delete Element",
+	"contexts": ["all"],
+	"id": "del",
+	"onclick": function(){
+		console.log("foo");
+	}
+});
+
+
+chrome.contextMenus.create({
 	"title": "Organize Tabs",
 	"contexts": ["all"],
 	"id": "parent"
